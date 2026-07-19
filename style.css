@@ -1,13 +1,13 @@
 
 body {
-    height: 100%;
+    height: 200%;
     font-size: 12px;
     line-height: 1.5;
 }
 
 p.pertama {
     font-family: "times new roman", serif;
-    margin: 10px;
+    margin: 16px;
     line-height: 0.9
 }
 
@@ -40,9 +40,10 @@ p.pendidikan2{
 }
 p.pendidikan4{
 line-height: 0.0;
-    margin: 16px 0px;
+    margin: 8px 0px;
     font-size: 12px;
     font-family: "times new roman", serif;
+    line-height: -4;
 }
 p.pengalaman {
     line-height: 0.0;
