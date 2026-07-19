@@ -2,70 +2,113 @@
 body {
     height: 50%;
     font-size: 12px;
-    line-height: 1.5;
+    line-height: 1;
 }
 
 p.pertama {
     font-family: "times new roman", serif;
-    margin: 16px;
+    margin: 6px;
     line-height: 0.9
 }
 
 p.profil {
+    style;
+    width:60px;
+    height:19px;
+    background:#DDF7E3	;
+    display:flex;
     font-weight: bold;
     font-size: 14px;
     font-family: "times new romance",serif;
-    margin: -4px 0px;
-    
+    margin: 10px 0px;
+    text-align: center;
+    line-height: 1.4;
 }
 p.ak {
     font-size: 12px;
-    line-height: 1.5;
+    line-height: 120%;
     margin: 10px 0px;
     font-family: "times new roman", serif;
 }
 
-p.pendidikan {
-    line-height: 0.0;
-    margin: 20px 0px;
+p.pendidikanteksutama{
+    style;
+    width:94px;
+    height:19px;
+    background:#DDF7E3;
+    display:flex;
+    margin: 10px 0px;
     font-size: 14px;
     font-family: "times new roman", serif;
     font-weight: bold;
+    line-height: 1.4;
 }
-p.pendidikan2{
-    line-height: .0;
-    margin: 17px 0px;
+p.s2informatika {
+    display:flex;
+    line-height: 100,0;
+    margin:4px 0px;
     font-size: 12px;
     font-family: "times new roman", serif;
 }
-p.pendidikan4{
+p.fokus{
+    line-height: normal;
+    margin-top: 5px;
+
+
+
+
+}
+li.isifokus {
+    line-height: 0.5;
+    margin: 13px 0px;
+    font-size: 12px;
+    font-family: "times new roman", serif;
+}
+p.s1informatika{
 line-height: 0.0;
-    margin: 8px 0px;
+    margin: 16px 0px;
     font-size: 12px;
     font-family: "times new roman", serif;
     line-height: -4;
 }
+p.materiyangdipelajari{
+        line-height: 1.0;
+        margin: -7px px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 12px;
+       
+}
+
+
 p.pengalaman {
-    line-height: 0.0;
-    margin: 17px 0px;
+     style;
+    width:105px;
+    height:20px;
+    background:#DDF7E3;
+    display:flex;
+    line-height: 1.2;
+    margin: 10px 0px;
     font-size: 14px;
     font-family: "times new roman", serif;
     font-weight: bold;
 }
-p.pengalaman2 {
+
+p.isipengalamanprestasi{
     line-height: 0.0;
-    margin: 20px 0px;
+    margin: 15px 0px;
     font-size: 12px;
     font-family: "times new roman", serif;
 }
+p.kegiatanpengalaman{
+    line-height: 120%;
+    margin:10px 0px;
+    font-size: 12px;
+    font-family: "times new roman", serif;
+}
+
+
 span.mempertebalteks {
     font-weight: bold;
-    font-size: 12px;
-    font-family: "times new roman", serif;
-}
-p.pengalaman33{
-    line-height: 1.2;
-    margin:2px 0px;
     font-size: 12px;
     font-family: "times new roman", serif;
 }
