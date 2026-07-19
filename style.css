@@ -1,0 +1,64 @@
+
+body {
+    height: 200%;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+p.pertama {
+    font-family: "times new roman", serif;
+    margin: 5px;
+    line-height: 0.9
+}
+
+p.profil {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: "times new romance",serif;
+    margin: -4px 0px;
+    
+}
+p.ak {
+    font-size: 12px;
+    line-height: 1.2;
+    margin: -px 0px;
+    font-family: "times new roman", serif;
+}
+
+p.pendidikan {
+    line-height: 0.0;
+    margin: 17px 0px;
+    font-size: 14px;
+    font-family: "times new roman", serif;
+    font-weight: bold;
+}
+p.pendidikan2{
+    line-height: .0;
+    margin: 13px 0px;
+    font-size: 12px;
+    font-family: "times new roman", serif;
+}
+p.pengalaman {
+    line-height: 0.0;
+    margin: 17px 0px;
+    font-size: 14px;
+    font-family: "times new roman", serif;
+    font-weight: bold;
+}
+p.pengalaman2 {
+    line-height: 0.0;
+    margin: 14px 0px;
+    font-size: 12px;
+    font-family: "times new roman", serif;
+}
+span.mempertebalteks {
+    font-weight: bold;
+    font-size: 12px;
+    font-family: "times new roman", serif;
+}
+p.pengalaman33{
+    line-height: 1.2;
+    margin:5px 0px;
+    font-size: 12px;
+    font-family: "times new roman", serif;
+}
