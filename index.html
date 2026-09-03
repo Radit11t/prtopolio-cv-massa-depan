@@ -3,12 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portofolio Kairu - Software Engineer, AI, Data Science" />
   <title>Kairu · Perjalanan Karir</title>
+  
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&family=Playfair+Display:ital,wght@0,500;0,700;1,600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
   <style>
     * {
       margin: 0;
@@ -48,11 +53,6 @@
       50% { text-shadow: 0 0 40px rgba(245, 197, 66, 0.25), 0 0 80px rgba(245, 197, 66, 0.05); }
     }
 
-    @keyframes shimmer {
-      0% { background-position: -200% 0; }
-      100% { background-position: 200% 0; }
-    }
-
     @keyframes float {
       0%, 100% { transform: translateY(0px); }
       50% { transform: translateY(-8px); }
@@ -78,22 +78,6 @@
       to { opacity: 1; transform: scale(1); }
     }
 
-    @keyframes rotateSlow {
-      from { transform: rotate(0deg); }
-      to { transform: rotate(360deg); }
-    }
-
-    @keyframes typing {
-      from { width: 0; }
-      to { width: 100%; }
-    }
-
-    @keyframes blink {
-      0%, 100% { border-color: transparent; }
-      50% { border-color: #f5c542; }
-    }
-
-    /* floating particles */
     @keyframes particleFloat {
       0% { transform: translateY(0) rotate(0deg) scale(0.5); opacity: 0; }
       20% { opacity: 1; }
@@ -115,6 +99,7 @@
       animation: fadeInUp 1s ease forwards;
       position: relative;
       overflow: hidden;
+      z-index: 1;
     }
 
     /* decorative glowing orb */
@@ -129,6 +114,7 @@
       border-radius: 50%;
       pointer-events: none;
       animation: float 8s ease-in-out infinite;
+      z-index: 0;
     }
 
     .portfolio-card::after {
@@ -142,12 +128,8 @@
       border-radius: 50%;
       pointer-events: none;
       animation: float 10s ease-in-out infinite reverse;
+      z-index: 0;
     }
-
-    /* ===== TYPOGRAPHY ===== */
-    .gold-accent { color: #f5c542; }
-    .gold-light { color: #f2d48b; }
-    .text-cream { color: #f5efe6; }
 
     /* ===== HEADER ===== */
     .name-title h1 {
@@ -623,6 +605,26 @@
     .particle:nth-child(4) { left: 70%; animation-delay: 1s; width: 5px; height: 5px; }
     .particle:nth-child(5) { left: 90%; animation-delay: 3s; width: 4px; height: 4px; }
 
+    /* ===== FOOTER ===== */
+    .footer-note {
+      margin-top: 1.8rem;
+      font-size: 0.75rem;
+      color: #5f574b;
+      display: flex;
+      justify-content: flex-end;
+      border-top: 1px solid rgba(255, 215, 150, 0.04);
+      padding-top: 0.8rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    .footer-note i {
+      color: #f5c542;
+      font-size: 0.3rem;
+      vertical-align: middle;
+      margin-right: 6px;
+    }
+
     /* ===== RESPONSIVE ===== */
     @media (max-width: 850px) {
       .portfolio-card {
@@ -658,23 +660,11 @@
       .project-grid { grid-template-columns: 1fr; }
       .portfolio-card { padding: 1.5rem 1rem; border-radius: 2rem; }
     }
-
-    /* scroll reveal helper */
-    .reveal {
-      opacity: 0;
-      transform: translateY(30px);
-      transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    }
-
-    .reveal.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
   </style>
 </head>
 <body>
 
-  <!-- floating particles -->
+  <!-- Floating particles -->
   <div class="particle"></div>
   <div class="particle"></div>
   <div class="particle"></div>
@@ -789,4 +779,34 @@
         <div class="section-title" style="font-size: 1.3rem; margin-bottom: 0.5rem;"><i class="fas fa-certificate"></i> Sertifikasi</div>
         <div class="cert-grid">
           <span class="cert-item"><i class="fas fa-check-circle"></i> Hacktiv8 · Fullstack 2029</span>
-          <span class="cert-item"><i class="fas fa-check-circle"></i> RevoU · Software Eng. 202
+          <span class="cert-item"><i class="fas fa-check-circle"></i> RevoU · Software Eng. 2029</span>
+          <span class="cert-item"><i class="fas fa-check-circle"></i> Hacktiv8 · Data Science 2030</span>
+          <span class="cert-item"><i class="fas fa-check-circle"></i> Hacktiv8 · Agentic AI 2030</span>
+          <span class="cert-item"><i class="fas fa-check-circle"></i> RevoU · Applied AI 2030</span>
+          <span class="cert-item"><i class="fas fa-check-circle"></i> RevoU · AI for Business 2032</span>
+          <span class="cert-item"><i class="fas fa-check-circle"></i> RevoU × ITB · AI Leaders 2032</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CAREER FOCUS -->
+    <div class="focus-box">
+      <div class="focus-text">
+        <i class="fas fa-arrow-right" style="color: #f5c542; margin-right: 0.8rem;"></i>
+        <span>Software Eng.</span> → <span>AI Eng.</span> → <span>Data Science</span>
+      </div>
+      <div class="focus-sub">
+        <i class="fas fa-quote-right" style="color: #f5c542; opacity: 0.4; margin-right: 0.3rem;"></i>
+        Solusi scalable &amp; data-driven, fondasi rekayasa kuat + AI.
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer-note">
+      <span><i class="fas fa-circle"></i> RevoU inspired · Kairu 2026</span>
+    </div>
+
+  </div>
+
+</body>
+</html>
